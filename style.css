@@ -500,6 +500,7 @@ section{
   padding-top: 10px;
   color: var(--accent-02);
   font-size: 1.1em;
+  text-align: justify;
 }
 
 .add-box p, .add-box h3{
@@ -660,14 +661,29 @@ body.light .contact .textarea::placeholder{
     grid-column-start: 2;
     grid-column-end: 4;
   }
+  .content h2{
+    font-size: 1.6em;
+  }
+  .wrapper p{
+    font-size: 15px;
+  }
 
   .profile .footer td {
     padding-bottom: 20px;
   }
 
   .achivements{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
   }
+  .achivements h3{
+    font-size: 1.5em;
+  }
+  .achivements p{
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+  
 
   .skills{
     grid-template-columns: 1fr 1fr 1fr;
@@ -676,6 +692,42 @@ body.light .contact .textarea::placeholder{
   .skills div:nth-child(7){
     grid-column: 1/4;
   }
+
+  .experience h2{
+    font-size: 1.3em;
+    text-align: left;
+  }
+  .experience p{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .experience h4{
+    padding-left: 20px;
+    margin: 5px;
+    text-align: left;
+  }
+  .experience h4::before{
+    top: 4px;
+    width: 12px;
+    height: 12px;
+  }
+
+  .edu h3{
+    font-size: 1.1em;
+  }
+  .edu h4{
+    font-size: 14px;
+  }
+  .edu-box h4::before{
+    margin-left: 3px;
+    top: 7px;
+  }
+
+  .add-box h3{
+    font-size: 1.3em;
+  }
+
 }
 
 
@@ -712,22 +764,85 @@ body.light .contact .textarea::placeholder{
                 rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
 
+  .profile h2{
+    font-size: 1.4em;
+  }
+  .profile p{
+    font-size: 16px;
+  }
   .profile .footer td {
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .content h2{
+    font-size: 1.6em;
+  }
+  .wrapper p{
+    font-size: 14px;
   }
 
   .achivements{
     grid-template-columns: 1fr ;
     text-align: center;
   }
+  .achivements h3{
+    font-size: 1.5em;
+  }
+  .achivements p{
+    font-size: 17px;
+  }
 
   .skills{
     grid-template-columns: 1fr 1fr;
   }
 
+  .skills div p{
+    font-size: 16px;
+  }
+
   .skills div:nth-child(7){
     grid-column: 1/3;
+  }
+
+  .experience h2{
+    font-size: 1.2em;
+    text-align: left;
+  }
+  .experience p{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .experience h4{
+    font-size: 14px;
+    padding-left: 20px;
+    margin: 5px;
+    text-align: left;
+  }
+  .experience h4::before{
+    top: 4px;
+    width: 12px;
+    height: 12px;
+  }
+  .experience .date{
+    padding: 5px 5px;
+    font-size: 12px;
+  }
+
+  .edu h3{
+    font-size: 1.1em;
+  }
+  .edu h4{
+    font-size: 14px;
+  }
+  .edu-box h4::before{
+    margin-left: 3px;
+    top: 7px;
+  }
+
+  .add-box h3{
+    font-size: 1.19em;
   }
 
   .contact{
