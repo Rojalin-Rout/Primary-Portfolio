@@ -1,0 +1,397 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  <title>Rojalin Rout - Portfolio</title>
+</head>
+<body class="">
+  
+  <div class="container">
+
+    <!-- ----------- NAVBAR ----------- -->
+    <nav class="navbar">
+      <div class="box theme">
+        <div class="item" onclick="theme()">
+          <ion-icon id="lightBtn" name="sunny-outline"></ion-icon>
+          <ion-icon id="darkBtn" name="moon-outline" style="display: none;"></ion-icon>
+        </div>
+      </div>
+
+      <div class="box nav">
+        <div class="item active">
+          <a href="#about">
+            <ion-icon name="person-circle-outline"></ion-icon>
+            <p>about</p>
+          </a>
+          <div class="divider rtl"></div>
+        </div>
+
+        <div class="item">
+          <a href="#resume">
+            <ion-icon name="file-tray-full-outline"></ion-icon>
+            <p>resume</p>
+          </a>
+          <div class="divider rtl"></div>
+        </div>
+
+        <div class="item">
+          <a href="#experiences">
+            <ion-icon name="layers-outline"></ion-icon>
+            <p>projects</p>
+          </a>
+          <div class="divider rtl"></div>
+        </div>
+
+        <div class="item">
+          <a href="#education">
+            <ion-icon name="reader-outline"></ion-icon>
+            <p>education</p>
+          </a>
+          <div class="divider rtl"></div>
+        </div>
+
+        <div class="item">
+          <a href="#add-course">
+            <ion-icon name="book-outline"></ion-icon>
+            <p>certificates</p>
+          </a>
+          <div class="divider rtl"></div>
+        </div>
+
+        <div class="item">
+          <a href="#contact">
+            <ion-icon name="paper-plane-outline"></ion-icon>
+            <p>contact</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ----------- PROFILE ----------- -->
+    <div id="about" class="box profile">
+      <img class="header" src="img/BG.jpg" alt="">
+      <img class="img" src="img/profile.jpg" alt="">
+      <h2>Rojalin Rout</h2>
+      <p id="typed" class="colored">BCA Graduate</p>
+
+      <ul>
+        <li><a href="https://github.com/Rojalin-Rout" target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+        <li><a href="https://m.facebook.com/profile.php?id=100080467011292" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://www.instagram.com/_rojalin._.rout_?igsh=d3JlZGl0NnVncDd5" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/in/rojalin-rout-1987a0250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      </ul>
+
+      <div class="footer">
+        <div class="divider rtl"></div>
+        <table>
+          <tr>
+            <td><a href="img/Resume.jpg" target="_blank"><ion-icon name="file-tray-full-outline"></ion-icon> View Resume</a></td>
+
+            <td><a href="#contact"><ion-icon name="call-outline"></ion-icon> Contact Me</a></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <!-- ----------- CONTENT ----------- -->
+    <div class="box content">
+      <div class="wrapper">
+        <h2>Hey <span class="colored">there !!</span> 👋🏻</h2>
+        <div class="divider ltr"></div>
+        <p>
+          Skilled and detail-oriented developer with a strong grasp of core programming concepts and problem-solving
+          techniques. Proficient in multiple programming languages such as <span class="colored">C, C++, HTML, CSS, Java, Python, and SQL</span>, with expertise in frontend and backend technologies. Experienced in <span class="colored">developing responsive web applications</span> and <span class="colored">designing intuitive
+          user interfaces</span>. Passionate about learning emerging technologies and solving complex problems through efficient code
+          and innovative solutions. 
+        </p>
+
+        <!-- ------ ACHIVEMENTS ------ -->
+        <section class="achivements">
+          <div>
+            <h3><ion-icon name="rocket-outline"></ion-icon> 5+</h3>
+            <p>Projects Completed</p>
+          </div>
+          <div>
+            <h3><ion-icon name="code-slash-outline"></ion-icon> 2yrs+ </h3>
+            <p>Coding Experience</p>
+          </div>
+          <div>
+            <h3><ion-icon name="briefcase-outline"></ion-icon> 5+</h3>
+            <p>Technologies Used</p>
+          </div>
+        </section>
+
+        <!-- ------ SKILLS ------ -->
+        <h2 id="resume"><span class="colored">Skills</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="skills">
+          <div><ion-icon name="logo-html5"></ion-icon><p>HTML 5</p></div>
+          <div><ion-icon name="logo-css3"></ion-icon><p>CSS</p></div>
+          <div><ion-icon name="logo-javascript"></ion-icon><p>JS</p></div>
+          <div><ion-icon name="logo-python"></ion-icon><p>Python</p></div>
+
+          <div>
+            <div class="circle" style="--percent:50%">
+              <h4>50<small>%</small></h4>
+            </div>
+            <p>Python</p>
+          </div>
+          <div>
+            <div class="circle" style="--percent:50%">
+              <h4>50<small>%</small></h4>
+            </div>
+            <p>MySQL</p>
+          </div>
+
+          <div>
+            <div class="progress-bar">
+              <p>HTML <span>90%</span></p>
+              <progress max="100" value="85"></progress>
+            </div>
+            <div class="progress-bar">
+              <p>CSS <span>85%</span></p>
+              <progress max="100" value="85"></progress>
+            </div>
+          </div>
+        </section>
+
+        <!-- ------ PROJECTS ------ -->
+        <h2 id="experiences"><span class="colored">Projects</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="experiences">
+          <div class="experience">
+            <a href="https://zipspeeds.com/" target="_blank">
+              <img src="img/Zipspeeds.png" alt="Restaurant Website" class="project-thumbnail">
+            </a> 
+            <h2>Zipspeeds Smart Technology Pvt. Ltd. – Logistics Company Website</h2>
+            <h4><a href="https://zipspeeds.com/" target="_blank">Click to View Page</a> <span class="date">Aug 2025</span> &#x26AC; <span class="date">Sep 2025</span></h4>
+            <p>
+              Developed a comprehensive multi-page website for a logistics company using HTML, CSS, and JavaScript, focusing on user-friendly navigation and responsive design.
+              Designed and implemented sections for company overview, vehicle offerings, service pricing, missions, visions, operating cities, and FAQs to inform potential clients and stakeholders.
+              Created dedicated interfaces for business partners, individual customers, and driver partners, including an interactive application form for driver recruitment and partner T&C acknowledgment.
+              Developed a career page with an application form for aspiring team members to apply directly, streamlining the hiring process for startup talent acquisition.
+              Integrated responsive “Get in Touch” and inquiry forms to enhance customer engagement and lead capture across all devices.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="https://chat-app-f9f9.onrender.com" target="_blank">
+              <img src="img/Chat App.png" alt="Restaurant Website" class="project-thumbnail">
+            </a> 
+            <h2>ChatApp – Real-time Messaging Platform</h2>
+            <h4><a href="https://chat-app-f9f9.onrender.com" target="_blank">Click to View Page</a> <span class="date">Feb 2025</span> &#x26AC; <span class="date">Jun 2025</span></h4>
+            <p>
+              Serving as team lead, this project involved developing a real-time chat application using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, and Socket.io. The platform supports instant messaging and status updates, with secure user authentication and a scalable backend. Efficient team management and coordinated development ensured timely delivery of robust communication features.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="https://rojalin-rout.github.io/Temp-Conv/" target="_blank">
+              <img src="img/Temp. Conv.png" alt="Restaurant Website" class="project-thumbnail">
+            </a> 
+            <h2>Temperature Converter</h2>
+            <h4><a href="https://rojalin-rout.github.io/Temp-Conv/" target="_blank">Click to View Page</a> <span class="date">Oct 2024</span></h4>
+            <p>
+              This project involved creating a dynamic unit converter using HTML, CSS, and JavaScript for real-time temperature conversions. The application allows users to seamlessly convert between Celsius, Fahrenheit, and Kelvin, supporting error validation for accurate results. Its clean interface ensures an intuitive and efficient user experience on all devices.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="https://rojalin-rout.github.io/Personal-Portfolio.github.io/" target="_blank">
+              <img src="img/Portfolio.png" alt="Restaurant Website" class="project-thumbnail">
+            </a> 
+            <h2>Responsive Personal Portfolio</h2>
+            <h4><a href="https://rojalin-rout.github.io/Personal-Portfolio.github.io/" target="_blank">Click to View Page</a> <span class="date">May 2024</span></h4>
+            <p>
+              For this project, a dedicated portfolio website was developed to showcase web development abilities. The site was constructed with HTML, CSS, and JavaScript, and was optimized for various devices, ensuring smooth navigation and an appealing visual layout whether viewed on mobile, tablet, or desktop. In this portfolio, sections were included for skills, past projects, educational details, an about me summary, and a get in touch form to enable collaboration. This was the first portfolio created as a beginner, and a newer, current version was later developed using the same technologies.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="">
+              <img src="img/Music Project.jpg" alt="Restaurant Website" class="project-thumbnail">
+            </a>
+            <h2>Interactive Music Web Page </h2>
+            <h4><span class="date">Mar 2024</span></h4>
+            <p>
+              This project was developed as part of a hands-on HTML, CSS, and JavaScript class, focusing on the creation of an engaging, multi-device compatible music web page. The site is structured around a sleek navigation bar and an interactive menu section for easy exploration of its features. Core audio controls, including play and pause functionality and volume adjustment, offer users a seamless music listening experience. To further enhance user interaction, the web page incorporates engaging elements such as "like" and "unlike" buttons, encouraging active participation. Through these thoughtfully designed components, the project provided a practical opportunity to deepen understanding of responsive layouts, dynamic user interfaces, and interactive web elements, resulting in a modern, enjoyable digital music environment.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="https://rojalin-rout.github.io/Restro_Service/" target="_blank">
+              <img src="img/Restro.png" alt="Restaurant Website" class="project-thumbnail">
+            </a> 
+            <h2>Restaurant Service Promotion Web Page</h2>
+            <h4><a href="https://rojalin-rout.github.io/Restro_Service/" target="_blank">Click to View Page</a> <span class="date">Feb 2024</span></h4>
+            <p>
+              Experience the digital representation of a culinary journey with this restaurant website project, designed using HTML, CSS, and JavaScript. The project features a dynamic, responsive interface that enhances user experience and interaction. Seamlessly navigate through the menu offerings, delve into the restaurant’s story on the about page, and easily connect via the contact section. The website is crafted with the customer in mind, providing quick access to essential information, integrating feedback forms for gathering visitor opinions, and presenting a visually engaging layout that makes discovering the restaurant’s offerings effortless and enjoyable.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="https://rojalin-rout.github.io/vortex-dup.github.io/" target="_blank">
+              <img src="img/Vortex.png" alt="Restaurant Website" class="project-thumbnail">
+            </a>
+            <h2>Vortex Website Replica </h2>
+            <h4><a href="https://rojalin-rout.github.io/vortex-dup.github.io/" target="_blank">Click to View Page</a> <span class="date">Feb 2024</span></h4>
+            <p>
+              This project focused on replicating the layout and core functionality of the Vortex website. Utilizing HTML, CSS, and JavaScript, the site accurately mirrored the original through customized navigation, styled elements, and standardized accessibility improvements for a robust user experience. Experience the precision and attention to detail as I faithfully recreate every aspect of the original site.
+            </p>
+          </div>
+
+          <div class="experience">
+            <a href="">
+              <img src="img/No img.jpg" alt="Restaurant Website" class="project-thumbnail">
+            </a>
+            <h2>Workout & Gym Information Website </h2>
+            <h4><span class="date">Dec 2023</span></h4>
+            <p>
+                As the lead for this project, an interactive website was developed to provide comprehensive gym and workout resources. Built with HTML, CSS, and JavaScript, the site featured workout plans, a fitness blog, and integrated search capabilities, all organized within a responsive, user-focused layout to encourage ongoing engagement.
+            </p>
+          </div>
+        </section>
+
+        <!-- ------ EDUCATION ------ -->
+        <h2 id="education"><span class="colored">Education</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="edu">
+
+          <div class="edu-box">
+            <div>
+              <h3><ion-icon name="school"></ion-icon> BCA (Bachelor of Computer Application)</h3>
+              <h4><span class="date">2022</span> &#x26AC; <span class="date">2025</span></h4>
+              <p>
+                <b>- College Name:</b> Regional College of Management
+                <br><b>- Academic Marks:</b> 8.57 CGPA 
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-box">
+            <div>
+              <h3><ion-icon name="school"></ion-icon> 12<sup>th</sup></h3>
+              <h4><span class="date">2020</span> &#x26AC; <span class="date">2022</span></h4>
+              <p>
+                <b>- School Name:</b> Ramadevi Women's University
+                <br><b>- Academic Marks:</b> 75%
+                <br><b>-</b> Participated in the JEE Main exam in 2022. 
+              </p>
+            </div>
+          </div>
+
+          <div class="edu-box">
+            <div>
+              <h3><ion-icon name="school"></ion-icon> 10<sup>th</sup></h3>
+              <h4><span class="date">2019</span> &#x26AC; <span class="date">2020</span></h4>
+              <p>
+                <b>- School Name:</b> Vivekananda Shiksha Kendra
+                <br><b>- Academic Marks:</b>  77.5%
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ------ CERTIFICATIONS ------ -->
+        <h2 id="add-course"><span class="colored">Certifications</span></h2>
+        <div class="divider ltr"></div>
+
+        <section class="add-course">
+
+          <div class="add-box">
+            <img src="img/No img.jpg" alt="">
+            <div>
+              <h3>Frontend Development Training</h3>
+              <p>
+                Actively participated in hands-on sessions focused on HTML, CSS, and JavaScript, which helped build practical expertise and strengthen my web development capabilities through interactive and project-based learning.
+              </p>
+            </div>
+          </div>
+
+          <div class="add-box">
+            <a href="img/Introduction to Python Certificate .jpeg" target="_blank"><img src="img/Introduction to Python Certificate .jpeg" alt=""></a>
+            <div>
+              <h3>Python Fundamentals</h3>
+              <p>
+                Completed a comprehensive Python Basics online course, developing foundational programming skills that are essential for software development and problem-solving.
+              </p>
+            </div>
+          </div>
+
+          <div class="add-box">
+            <a href="img/Oasis infobyte Certificate_page-0001.jpg" target="_blank"><img src="img/Oasis infobyte Certificate_page-0001.jpg" alt=""></a>
+            <div>
+              <h3>Web Development & Design Certification</h3>
+              <p>
+                I earned a Web Development & Design certification from Oasis Infobyte, which validated my proficiency in creating responsive, user-friendly, and visually appealing web applications. This certification reflects both my technical knowledge and creative design approach.
+              </p>
+            </div>
+          </div>
+
+          <div class="add-box">
+            <a href="img/TCS iON Career Edge Certificate_pages-to-jpg-0001.jpg" target="_blank"><img src="img/TCS iON Career Edge Certificate_pages-to-jpg-0001.jpg" alt=""></a>
+            <div>
+              <h3>TCSiON Career Edge Certification</h3>
+              <p>
+                Achieved the TCSiON Career Edge Certification, which concentrates on improving professional communication and soft skills. This program helped me enhance my interpersonal abilities, preparing me for effective collaboration and workplace challenges.
+              </p>
+            </div>
+          </div>
+
+          <div class="add-box">
+            <a href="img/Infosys Program in Professional Edge_page-0001.jpg" target="_blank"><img src="img/Infosys Program in Professional Edge_page-0001.jpg" alt=""></a>
+            <div>
+              <h3>Infosys - Career Development Program</h3>
+              <p>
+                I am certified in the Program in Professional Edge by Infosys, a career development course designed to prepare individuals for the diverse challenges of the professional environment and foster ongoing growth and adaptability in the workforce.
+              </p>
+            </div>
+          </div>
+
+        </section>
+
+        <!-- ------ CONTACTS ------ -->
+         <h2 id="contact">Contact <span class="colored">Me</span></h2>
+         <div class="divider ltr"></div>
+
+         <section>
+          <iframe class="map" width="100%" height="300" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119743.5229796294!2d85.82045314999999!3d20.30088415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1758083792229!5m2!1sen!2sin"></iframe>
+
+          <form action="https://formspree.io/f/mjkevwll" method="POST" class="contact">
+            <div class="col">
+            <div>
+              <input type="text" class="input" name="firstname" placeholder="First Name...">
+            </div>
+            <div>
+              <input type="text" class="input" name="lastname" placeholder="Last Name...">
+            </div>
+            </div>
+            <div>
+              <input type="email" class="input" name="email" placeholder="Your Email Address...">
+            </div>
+            <div>
+              <textarea class="input" rows="4" name="subject" placeholder="Write Your Message..."></textarea>
+            </div>
+            <div>
+              <button type="submit" class="submit">SEND</button>
+            </div>
+          </form>
+         </section>
+        
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
