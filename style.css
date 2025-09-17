@@ -636,17 +636,21 @@ body.light .contact .textarea::placeholder{
 /* Desktops */
 @media screen and (width >= 1024px) {
   .container{
-    grid-template-columns: 85px 430px 1fr;
+    grid-template-columns: 70px 430px 1fr;
   }
 
   .skills div:nth-child(7){
     grid-column: 3 / span 2;
   }
+
+  .profile .footer td {
+    padding-bottom: 20px;
+  }
 }
 
 
 /* Tablets */
-@media screen and (width >= 768px) and (width <= 1023px) {
+@media screen and (width >= 600px) and (width <= 1023px) {
   .container{
     grid-template-columns: 85px 1fr;
     max-width: 650px;
@@ -676,7 +680,7 @@ body.light .contact .textarea::placeholder{
 
 
 /* Mobiles */
-@media screen and (width <= 769px) {
+@media screen and (width <= 600px) {
   .container{
     grid-template-columns: 1fr;
     max-width: 500px;
@@ -710,6 +714,7 @@ body.light .contact .textarea::placeholder{
 
   .profile .footer td {
     padding-bottom: 20px;
+    font-size: 15px;
   }
 
   .achivements{
